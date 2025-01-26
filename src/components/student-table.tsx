@@ -42,7 +42,7 @@ export function StudentTable({
   );
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4  sm:w-full">
       {/* Search Bar */}
       <div className="flex items-center gap-2">
         <div className="relative flex-1">

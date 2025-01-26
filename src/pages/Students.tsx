@@ -101,12 +101,15 @@ export const Students = () => {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 ">
       <div className="flex justify-between items-center">
         <h1 className="text-3xl font-bold">Students</h1>
-        <Button onClick={() => setIsAddModalOpen(true)}>
-          <Plus className="w-4 h-4 mr-2" />
-          Add Student
+        <Button
+          onClick={() => setIsAddModalOpen(true)}
+          className="w-2 sm:w-fit"
+        >
+          <Plus className="w-4 h-4 mr-0 sm:mr-2" />
+          <div className="hidden sm:block">Add Student</div>
         </Button>
       </div>
       <StudentTable

@@ -1,6 +1,5 @@
-@import "tailwindcss";
 @import "@radix-ui/themes/styles.css";
-
+@import "tailwindcss";
 @theme {
   --color-primary: #000; /* Primary color */
   --color-primary-foreground: #ffffff; /* Foreground color for primary */

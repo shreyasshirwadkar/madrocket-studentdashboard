@@ -34,7 +34,7 @@ export function Sidebar() {
   }, [location, navigate]);
 
   return (
-    <div className="w-64 h-screen border-r bg-gray-50/40">
+    <div className="hidden sm:block sm:w-64 h-screen border-r bg-gray-50/40">
       <div className="p-4 border-b">
         <h1 className="text-xl font-semibold">Dashboard</h1>
       </div>
