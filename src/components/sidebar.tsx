@@ -2,7 +2,6 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { LogOut, Users } from "lucide-react";
 import { cn } from "../lib/utils";
 import { Button } from "../components/ui/button";
-import { logout } from "../lib/auth";
 import { signOut } from "firebase/auth";
 import { auth } from "../lib/firebase"; // Ensure this imports your Firebase auth instance
 import { useEffect } from "react";
